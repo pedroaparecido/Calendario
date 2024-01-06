@@ -26,7 +26,7 @@ class _TelaDadosPix extends State<TelaDadosPix> {
     var response = await http.post(url,
         headers: {
           "Authorization":
-              "Bearer APP_USR-7419241773794749-101913-95b0aabbfdd603c98c46c6607d70c0a2-458440520",
+              "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         },
         body: json.encode(bodyMap));
 

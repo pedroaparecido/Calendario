@@ -13,6 +13,14 @@ class DatePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Horários marcados'),
+        actions: [
+          PopupMenuButton(itemBuilder: (context) => [
+            PopupMenuItem(
+              child: Text("Área administrativa"),
+              onTap: () => Get.toNamed(RouteConfig.login),
+            )
+          ])
+        ],
       ),
       body: SingleChildScrollView(
         child: Column(

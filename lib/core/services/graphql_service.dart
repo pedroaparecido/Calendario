@@ -6,7 +6,7 @@ abstract class GraphqlService {
 }
 
 class GraphqlServiceImpl implements GraphqlService {
-  String urlBase = 'https://eternal-longhorn-92.hasura.app/v1/graphql';
+  String urlBase = 'https://XXXXXXXXXXXXXXXXXXXXXXXXXx';
   static const _timeOut = Duration(seconds: 3);
 
   Future<HasuraConnect> _hasuraConnect() async {
@@ -15,7 +15,7 @@ class GraphqlServiceImpl implements GraphqlService {
       headers: {
         'content-type': 'application/json',
         'x-hasura-admin-secret':
-            'YJOoLFXVp7sMzdLVpKp9juMkONaWleLG3d3odl7xmrxmgQE3TTUzrKa5rg0AVGGb',
+            'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
       },
     );
 

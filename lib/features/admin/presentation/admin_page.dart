@@ -10,6 +10,14 @@ class AdminPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Painel - Administrativo'),
+        actions: [
+          PopupMenuButton(itemBuilder: (context) => [
+            PopupMenuItem(
+              child: Text("Página inicial"),
+              onTap: () => Get.toNamed(RouteConfig.datePage),
+            )
+          ])
+        ],
       ),
       drawer: Drawer(
       child: ListView(

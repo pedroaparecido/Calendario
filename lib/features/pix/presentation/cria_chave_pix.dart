@@ -23,7 +23,7 @@ class _CriaChavePix extends State<CriaChavePix> {
       "transaction_amount": 20,
       "payment_method_id": "pix",
       "payer": {
-        "email": "flutterflow@gmail.com",
+        "email": "XXXXXX@email.com",
         "first_name": "first_name",
         "last_name": "last_name",
         "identification": {
@@ -38,7 +38,7 @@ class _CriaChavePix extends State<CriaChavePix> {
     var response = await http.post(url,
         headers: {
           "Authorization":
-              "Bearer APP_USR-441313488601700-102807-7601b5d2956eb01878000782743ea2e7-290919083",
+              "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         },
         body: json.encode(bodyMap));
 
